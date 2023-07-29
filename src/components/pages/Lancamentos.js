@@ -17,7 +17,7 @@ function Lancamentos() {
   useEffect(() => {
     setTimeout(
       () => {
-          Axios.get("http://localhost:3001/getCards").then((response) => {
+          Axios.get("http://54.94.200.152:3001/getCards").then((response) => {
             setListCard(response.data);
             setFilteredCards(response.data);
             setRemoveLoading(true)

@@ -12,7 +12,7 @@ const [removeLoading, setRemoveLoading] = useState(false)
 useEffect(() => {
   setTimeout(
     () => {
-      Axios.get("http://localhost:3001/getPlantaGenerica").then((response) => {
+      Axios.get("http://54.94.200.152:3001/getPlantaGenerica").then((response) => {
         setTodos(response.data);
         setRemoveLoading(true)
       });

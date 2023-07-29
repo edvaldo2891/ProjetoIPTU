@@ -32,7 +32,7 @@ function Calculo(props){
     useEffect(() => {
         setTimeout(
           () => {
-            Axios.get("http://localhost:3001/getColetaLixo").then((response) => {
+            Axios.get("http://54.94.200.152:3001/getColetaLixo").then((response) => {
               setLixoDB(response.data);
             });
         },300)
@@ -41,7 +41,7 @@ function Calculo(props){
       useEffect(() => {
         setTimeout(
           () => {
-            Axios.get("http://localhost:3001/getPlantaGenerica").then((response) => {
+            Axios.get("http://54.94.200.152:3001/getPlantaGenerica").then((response) => {
               setTodos(response.data);
             });
         },300)
