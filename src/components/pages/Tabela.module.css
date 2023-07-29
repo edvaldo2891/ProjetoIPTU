@@ -1,0 +1,86 @@
+.geral_container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  color: #050505;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+.alinhar{
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding-right: 2em;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+}
+
+th{
+  border: 1px solid black;
+  text-align: center;
+  background-color:#Ffbb33;
+  color: black;
+}
+
+h3{
+  text-align: center;
+}
+
+.separador{
+  padding: 0.3em;
+  font-size: 1em;
+}
+
+/* Estilizando o container do select */
+.select_container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+}
+
+/* Estilizando o ícone do select */
+.select_arrow {
+  background-image: url('/src/img/seta.png');
+  background-repeat: no-repeat;
+  background-position: 11em;
+  margin-bottom: 1em;
+}
+
+
+/* Estilizando o select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  padding: .7em;
+  background-color: rgb(221, 216, 216);
+  color: rgb(7, 7, 7);
+}
+
+label{
+  font-size: 1em;
+  width: 400px;
+}
+
+

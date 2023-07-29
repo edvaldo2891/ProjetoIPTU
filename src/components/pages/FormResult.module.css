@@ -1,0 +1,32 @@
+.bloco_inline{
+    display: flex;
+    overflow: hidden;
+}
+.dialog_content{
+    border: 1px solid black;
+    border-radius: 4px; 
+    padding-left: 0.5em;
+    overflow: hidden;
+}
+
+.table {
+    border-collapse: collapse;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 1.5em;
+  }
+  
+  .table td {
+    border: 1px solid black;
+    text-align: left;
+    padding-right: 2em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+  }
+  
+  .table th{
+    border: 1px solid black;
+    text-align: center;
+    background-color:#cccac7;
+    color: black;
+  }

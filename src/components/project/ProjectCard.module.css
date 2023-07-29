@@ -1,0 +1,26 @@
+.project_card{
+    padding: 3em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    height: 50%;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.project_card h5{
+    background-color: #222;
+    color: #ffbb33;
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.0em;
+}
+.project_card p{
+    color: #7a7a7a;
+    margin-bottom: 1.3em;
+}
+
+.project_card p span{
+    font-weight: bold;
+}
+

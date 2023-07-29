@@ -1,0 +1,8 @@
+.bloco_inline{
+    display: flex;
+    overflow: hidden;
+}
+.dialog_content{
+    width: 100%;
+    justify-content: center;
+}

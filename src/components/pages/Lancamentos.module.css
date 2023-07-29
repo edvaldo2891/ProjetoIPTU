@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+  }
+  
+  .register_container {
+    padding: 10px 20px;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  
+  .register_title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: fantasy;
+  }
+  
+  .register_input {
+    display: block;
+    margin: 10px auto;
+    padding: 7px 0;
+  }
+  
+  .register_button {
+    padding: 2px 5px;
+  }
+
+
+.form_control{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form_control label{
+  margin-bottom: .6em;
+  font-weight: bold;
+}
+
+.form_control input{
+  padding: .7em;
+  border-radius: 0;
+  border: none;
+}
+.form_control input::placeholder{
+  color: #7b7b7b;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.pagination li {
+  cursor: pointer;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.pagination li.active {
+  background-color: #ffbb33;
+  color: black;
+  border: 2px solid rgb(51, 50, 50);
+}
+
+label{
+  font-size: 1.6rem;
+}
+
+
